@@ -1,0 +1,21 @@
+{
+  "name": "@scoreview/worker",
+  "version": "1.0.0",
+  "description": "SeamlessHR Appraisal Parser, Extended Schema & ARIG Engine",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:tests": "tsc -p tsconfig.tests.json",
+    "test": "npm run build:tests && node --test \"dist-tests/tests/**/*.test.js\"",
+    "test:ts": "node --loader ts-node/esm --test tests/**/*.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}

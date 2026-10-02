@@ -1,0 +1,152 @@
+{
+  "document": {
+    "source_filename": "Julius_Danquah.pdf",
+    "source_hash": "8a2b5e917d4a673024c08462002341258ab0101b44d32098bc5594b5cd1a7fa2",
+    "generator": "SeamlessHR",
+    "parsed_at": "2026-10-01T10:00:00Z",
+    "parser_version": "1.0.0"
+  },
+  "employee": {
+    "employee_id": "EMP-JD-001",
+    "name": "Julius Danquah",
+    "department": "HR & Corp. Comms.",
+    "job_title": null,
+    "hr_master_match": "EXACT"
+  },
+  "cycle": {
+    "label": "Q1 2026",
+    "period_start": "2026-01-01",
+    "period_end": "2026-05-31",
+    "is_test_phase": true
+  },
+  "reviewer": {
+    "name": "Sally Osei-Boateng",
+    "department": "HR & Corp. Comms.",
+    "signed_at": "2026-06-09T13:13:00Z"
+  },
+  "counter_signer": null,
+  "arc": {
+    "name": "Sally Osei-Boateng",
+    "department": "HR & Corp. Comms.",
+    "signed_at": "2026-06-16T09:00:00Z"
+  },
+  "perspectives": [
+    {
+      "name": "Financial",
+      "weight": 20,
+      "is_standard_bsc": true,
+      "confidence": 1.0,
+      "source": {
+        "document": "Julius_Danquah.pdf",
+        "page": 3,
+        "row": null,
+        "field": "perspective_weight"
+      }
+    },
+    {
+      "name": "Customer",
+      "weight": 25,
+      "is_standard_bsc": true,
+      "confidence": 1.0,
+      "source": {
+        "document": "Julius_Danquah.pdf",
+        "page": 5,
+        "row": null,
+        "field": "perspective_weight"
+      }
+    },
+    {
+      "name": "HR & Corp. Comms.",
+      "weight": null,
+      "is_standard_bsc": false,
+      "confidence": 1.0,
+      "source": {
+        "document": "Julius_Danquah.pdf",
+        "page": 4,
+        "row": null,
+        "field": "perspective_name"
+      }
+    },
+    {
+      "name": "Learning and Growth",
+      "weight": null,
+      "is_standard_bsc": true,
+      "confidence": 1.0,
+      "source": {
+        "document": "Julius_Danquah.pdf",
+        "page": 12,
+        "row": null,
+        "field": "perspective_name"
+      }
+    }
+  ],
+  "kpis": [
+    {
+      "code": "KPI-01",
+      "title": "Reduce available overtime and absenteeism trends",
+      "objective_text": "Reduce available overtime and absenteeism trends and improve labour utilisation through proactive analysis and implementation of cost-control actions...",
+      "kpi_type_from_pdf": "Type 1",
+      "kpi_type_inferred": "TYPE_2_LESS_MEANS_MORE",
+      "kpi_type": "TYPE_2_LESS_MEANS_MORE",
+      "kpi_type_divergence": true,
+      "target": 100,
+      "actual": 50,
+      "actual_score_from_pdf": 50,
+      "weight": 10,
+      "weighted_score_from_pdf": 5,
+      "final_score_from_pdf": 5,
+      "completion_percent": 50,
+      "unit": null,
+      "bsc_perspective": "financial",
+      "perspective_weight": 20,
+      "reviewer_target": 100,
+      "reviewer_actual": 50,
+      "employee_target": 100,
+      "employee_actual": 100,
+      "self_vs_supervisor_delta": 50,
+      "comment": "Payroll accuracy: Poor attention to detail leading to poor validation...",
+      "comment_word_count": 38,
+      "comment_author": "Sally Osei-Boateng",
+      "comment_author_department": "HR & Corp. Comms.",
+      "comment_timestamp": "2026-06-09T12:48:00Z",
+      "source": {
+        "document": "Julius_Danquah.pdf",
+        "page": 3,
+        "row": 1,
+        "field": "kpi_block"
+      },
+      "confidence": 0.95
+    }
+  ],
+  "competencies": [],
+  "warnings": [
+    {
+      "code": "WARN_MISSING_WEIGHT",
+      "severity": "WARN",
+      "message": "Perspective 'HR & Corp. Comms.' has no weight",
+      "context": {
+        "perspective": "HR & Corp. Comms."
+      },
+      "page": 4
+    },
+    {
+      "code": "KPI_TYPE_DIVERGENCE",
+      "severity": "WARN",
+      "message": "PDF type Type 1 differs from inferred TYPE_2_LESS_MEANS_MORE",
+      "context": {
+        "kpi_code": "KPI-01"
+      },
+      "page": 3
+    },
+    {
+      "code": "WARN_ARTIFACT_PAGE",
+      "severity": "INFO",
+      "message": "Degenerate page skipped",
+      "context": {
+        "token_count": 1540,
+        "entropy": 0.12
+      },
+      "page": 8
+    }
+  ]
+}
